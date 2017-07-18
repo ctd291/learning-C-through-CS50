@@ -29,7 +29,7 @@ int main(void)
             if (counter % 2 == 1) // checks to see if the digit need to be multiplied by 2 
                 {
                     temp_number *= 2; // multiplies current digit by 2
-                    while (temp_number >= 10) // checks if the digit is greater then 10, if so it splits up the digits
+                    while (temp_number >= 10) // checks if the digit is greater then 10, if so it splits up the digits then adds them in next line
                         {
                             temp_number = (temp_number % 10) + 1; //since the highest a digit to be multiplied is 9, you just need to module by 10 and add a 1 to get the sum of both digits
                         }
