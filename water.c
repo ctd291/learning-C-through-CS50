@@ -1,6 +1,6 @@
 //pset1 water
 // simple program to calculated water consumption through variables
-// 
+// Git is fun.
 
 #include <cs50.h>
 #include <stdio.h>
